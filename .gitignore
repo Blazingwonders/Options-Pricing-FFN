@@ -1,0 +1,25 @@
+# Virtual environments
+ml_env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# IDEs
+.vscode/
+.idea/
+
+
+# Data
+*.csv
+*.xlsx
+*.png
+*.pth
+
+# Model files
+*.pkl
+*.pt
+*.h5
+
