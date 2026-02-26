@@ -20,26 +20,22 @@ bashpip install torch numpy pandas scikit-learn matplotlib
 
 ### Usage
 ```
-pythonfrom model import NeuralNetworkPyTorch
-from data_preparation import prepare_data
-```
-### Load data
-```
-X_train, X_val, X_test, y_train, y_val, y_test, scaler, input_dim = prepare_data()
-```
-
-### Create and train model
-```
-model = NeuralNetworkPyTorch(input_dim=10, hidden_dims=[128, 128, 128])
+1. run generate_training_data10k.py
+2. run train.py
+3. look at the results and visualizations and tweak the model
 ```
 
 ### Project Structure
 ```
-├── model.py                          # Neural network architecture
+├── network.py                        # Neural network architecture
 ├── data_preparation.py               # Data loading and preprocessing
 ├── train.py                          # Training script
 ├── generate_training_data10k.py      # Synthetic data generator
-└── synthetic_option_data_10k.csv     # Training dataset
+├── requirements.txt      
 ```
+
+### Visualizations
+![Picture showing properties of synthetic data](synthetic_data_analysis.png)
+
 Technologies
 PyTorch • NumPy • Pandas • Scikit-learn
