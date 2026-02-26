@@ -35,7 +35,12 @@ bashpip install torch numpy pandas scikit-learn matplotlib
 ```
 
 ### Visualizations
-![Picture showing properties of synthetic data](synthetic_data_analysis.png)
+![Picture showing properties of synthetic data](images/synthetic_data_analysis.png)
+
+**Testing**
+![predcited prive vs actual price](images/predicted_vs_actual.png)
+
+
 
 Technologies
 PyTorch • NumPy • Pandas • Scikit-learn
