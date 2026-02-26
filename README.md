@@ -8,7 +8,7 @@ Output: Single option price
 Framework: PyTorch
 
 ### Results
-Test Set Performance:
+Test Set Performance (with 1% noise):
 - RMSE: $0.10
 - MAE: $0.07
 - R²: 0.9997
